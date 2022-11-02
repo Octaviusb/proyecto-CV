@@ -1,0 +1,221 @@
+body {
+    background-color: rgb(255, 255, 255,1);
+    font-family: 'Montserrat', 'Arial', 'Helvetica', sans-serif;
+}
+
+li {
+    line-height: 24px;
+}
+
+.contenedor-principal {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: white;
+    /* height: 1319px; */
+    width: 1200px;
+    margin: 40px auto;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/*---------------------*/
+/* .informacion-general {
+        display: flex;
+    flex-direction: row;
+} */
+/*---------------------*/
+
+.informacion-general {
+    padding: 100px 88px;
+}
+
+.nombre {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    Line-height: 55px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+/* .descripcion */
+
+.texto-descripcion {
+    width: 400px;
+    font-style: normal;
+    font-weight: 400;
+    Font: size 14px;
+    line-height: 24px;
+}
+
+.profesion {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/*secciones principales*/
+
+.titulo-seccion-principal {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+
+}
+
+.texto-naranja {
+    color: #FB6D3A;
+}
+
+.clase-proyectos {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    text-shadow: 0px 4px 4px rgb(202, 202, 202);
+}
+
+/*seccion proyectos*/
+
+.lista-proyectos {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-top: 45px;
+    padding-left: 22px;
+}
+
+.texto {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 27px;
+    margin-top: 45px;
+}
+
+.puntos-proyecto {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #595959;
+}
+
+/*experiencia laboral*/
+
+.puesto-empresa {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+
+.periodo-empresa {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color:#595959;
+}   
+
+.lista-experiencia {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 17px;
+}
+
+/*seccion educacion*/
+
+.centro-educativo {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+}
+
+.titulo-educativo {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0px 0;
+}
+
+/*informacion-lateral*/
+
+.informacion-lateral {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    background-color: #1e2939;
+    padding: 40px 0px;
+    
+}
+
+.titulo-lateral {
+    color: white;
+    font-family: 'Montserrat', 'Arial', 'Helvetica', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    margin-top: 50px;
+    margin-bottom: 8px;
+}
+    
+.contactos, .habilidades-tecnicas, .habilidades-blandas {
+    margin-left: 40px;
+}
+
+/*-----------------*/
+/*seccioncontactos */
+/*-----------------*/
+
+.tipo-contacto {
+    color: white;
+    font-family: 'Montserrat', 'Arial', 'Helvetica', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: 5px;
+}
+
+.contacto-info {
+    color: rgb(177, 177, 177);
+    font-family: 'Montserrat', 'Arial', 'Helvetica', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/*----------------*/
+/*seccion de lista*/
+/*----------------*/
+
+.lista-lateral {
+    padding: 0;
+    padding-left: 17px;
+  }
+  
+.lista-lateral > li {
+    color: #FB6D3A;
+}
+  
+.elemento-lista-lateral {
+    color: white;
+    font-family: 'Montserrat', 'Arial', 'Helvetica', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
